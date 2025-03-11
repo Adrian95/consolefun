@@ -10,6 +10,17 @@ const colors = [
   chalk.magenta,
   chalk.cyan,
   chalk.white,
+  chalk.gray,
+  chalk.black,
+  chalk.redBright,
+  chalk.greenBright,
+  chalk.blueBright,
+  chalk.yellowBright,
+  chalk.magentaBright,
+  chalk.cyanBright,
+  chalk.whiteBright,
+  chalk.grayBright,
+  chalk.blackBright,
 ];
 
 const randomColor = colors[Math.floor(Math.random() * colors.length)];
