@@ -4,7 +4,7 @@
 
 `consolefun` is a collection of fun and interactive console-based tools written in JavaScript. These tools are designed to bring some joy and utility to your terminal experience. The project includes the following tools:
 
-1. **Fortune Teller**: Get a fun and colorful fortune message.
+1. **Fortune Teller**: Ask a question and receive a fortune in haiku format with colorful display.
 2. **Weather Checker**: Fetch and display the current weather for a specified city.
 3. **Countdown Timer**: A countdown timer with colorful output and a blast-off animation.
 
@@ -12,13 +12,15 @@
 
 ### Fortune Teller
 
-The Fortune Teller tool uses the Groq SDK to generate a fun fortune message and displays it with colorful ASCII art.
+The Fortune Teller tool prompts you for a question, uses the Groq API to generate a personalized fortune in haiku format based on your question, and displays the response with colorful ASCII art and emoji.
 
 #### Usage
 
 ```sh
 node fortuneTeller.js
 ```
+
+You will be prompted to enter your question, then the application will generate a fortune in haiku format based on your input.
 
 ### Weather Checker
 
