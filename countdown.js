@@ -54,3 +54,5 @@ const timer = setInterval(() => {
   console.log(randomColor(currentNumber));
   currentNumber--;
 }, 1000); // every second
+
+

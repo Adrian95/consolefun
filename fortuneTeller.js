@@ -43,10 +43,10 @@ export async function getGroqChatCompletion(content) {
     messages: [
       {
         role: "user",
-        content: `you are a fortune teller, make the answer in short haiku. here's my question: ${content}`,
+        content: `Give me a haiku fortune, based on this question. Be like a greek oracle: ${content}`,
       },
     ],
-    model: "llama-3.1-8b-instant",
+    model: "qwen-2.5-32b",
   });
 }
 
